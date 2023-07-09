@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* head */
+header {
+
+    height: 808px;
+    background-image: url('new-year-new-me-main/images/banner/banner1.png');
+    background-size: cover;
+}
+
+.head {
+    /* gap: 40px; */
+    height: 808px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 2px solid lime;
+
+}
+
+.half h2 {
+    margin: 0px;
+    color: #151414;
+
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.half {
+
+    margin-right: 230px;
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+    /* justify-content: center; */
+    border: 2px solid red;
+}
+
+.head_p {
+    color: #444343;
+
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400px !important;
+}
+
+.half button {
+    color: #FFF;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+
+}
